@@ -13,9 +13,11 @@ toc: false
 ---
 
 This page describes how to create a new Flutter app from templates, run it, and experience "hot reload" after you make changes to the app.
+本篇教程将介绍如何通过模板来创建一个新的 Flutter 应用，如何运行这个应用，以及如何在你对代码做出修改之后，通过 hot reload 来加载所修改的内容。
 
 Select your development tool of choice for writing, building, and running
 Flutter apps.
+请选择您用作编写、构建以及运行 Flutter 应用代码的开发工具。
 
 {% comment %} Nav tabs {% endcomment -%}
 <ul class="nav nav-tabs" id="editor-setup" role="tablist">
@@ -38,5 +40,7 @@ Flutter apps.
 </div>
 
 ## Next step
+## 下一篇
 
 You'll next learn some core Flutter concepts by creating a small app.
+你将会通过创建一个简单的应用来学习一些 Flutter 的核心概念。

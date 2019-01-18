@@ -2,15 +2,29 @@
 
 ## Create the app
 
+## 创建应用
+
   1. Invoke **View > Command Palette**.
+  
+     在菜单中选择 **View > Command Palette**。
   1. Type "flutter", and select the **Flutter: New Project**.
+  
+     在输入框中输入「flutter」，然后点击选择 **Flutter: New Project**。
   1. Enter a project name, such as `myapp`, and press **Enter**.
+  
+     输入新建项目名，例如「myapp」，然后按 **回车键**。
   1. Create or select the parent directory for the new project folder.
+  
+     选择已有文件夹或是新建文件夹作为项目代码存放的根目录。
   1. Wait for project creation to complete and the `main.dart`
      file to appear.
+     
+     等待项目创建完成以及编辑器自动打开「main.dart」。
 
 The above commands create a Flutter project directory called `myapp` that
 contains a simple demo app that uses [Material Components][].
+
+以上步骤
 
 {% include_relative _main-code-note.md  %}
 

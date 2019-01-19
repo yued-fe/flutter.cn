@@ -2,7 +2,11 @@
 
 ## Create the app
 
+## 创建项目
+
 Use the `flutter create` command to create a new project:
+
+使用 `flutter create` 命令来创建一个新的项目：
 
 ```terminal
 $ flutter create myapp
@@ -10,6 +14,10 @@ $ cd myapp
 ```
 
 The command creates a Flutter project directory called `myapp` that
+contains a simple demo app that uses
+[Material Components](https://material.io/guidelines/).
+
+以上代码将创建一个名为 `myapp` 的 flutter项目，其中包含
 contains a simple demo app that uses
 [Material Components](https://material.io/guidelines/).
 

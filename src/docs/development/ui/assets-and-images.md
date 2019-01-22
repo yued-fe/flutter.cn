@@ -11,14 +11,23 @@ app, and is accessible at runtime. Common types of assets include
 static data (for example, JSON files), configuration files, icons, and
 images (JPEG, WebP, GIF, animated WebP/GIF, PNG, BMP, and WBMP).
 
+Flutter 应用可以导入代码文件以及 _asset文件_ （也被称为资源文件）。资源文件是指已经导入到你项目中，在 app 运行起来的时候能够直接读取的文件。
+通常来说，资源文件包括静态数据（比方说： JSON 文件），配置文件，图标和图片（ JPEG ， WebP ， GIF ， animated WebP/GIF ， PNG ， BMP 以及 WBMP ）
+
 ## Specifying assets
+
+## 声明资源文件
 
 Flutter uses
 the [`pubspec.yaml`](https://www.dartlang.org/tools/pub/pubspec) file,
 located at the root of your project, to identify assets required by an
 app.
 
+Flutter 通过位于你项目所在根目录的 [`pubspec.yaml`](https://www.dartlang.org/tools/pub/pubspec) 文件，来声明 app 中所需使用的资源文件。
+
 Here is an example:
+
+下面有个例子：
 
 ```yaml
 flutter:
@@ -30,6 +39,8 @@ flutter:
 To include all assets under a directory, specify the directory name with
 the `/` character at the end:
 
+如果想要声明文件夹中所有的资源文件，通过在文件夹名字后面拼接 `/` 来实现：  
+
 ```yaml
 flutter:
   assets:
@@ -39,6 +50,8 @@ flutter:
 Note that only files located directly in the directory will be
 included; to add files located in subdirectories, create an entry per
 directory.
+
+注意，只有该文件夹下的资源文件会包含在声明中；如果想要声明子文件夹中的资源文件，需要额外声明该子文件夹。
 
 ### Asset bundling
 

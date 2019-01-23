@@ -55,6 +55,8 @@ directory.
 
 ### Asset bundling
 
+### 绑定资源文件
+
 The `assets` subsection of the `flutter` section specifies files that
 should be included with the app. Each asset is identified by an
 explicit path (relative to the `pubspec.yaml` file) where the asset
